@@ -1,0 +1,33 @@
+about
+-----------
+
+a tutorial about how to use setuptools in python for dependancies mgnmt.
+
+** this only covers a SINGLE module, not using submodule in it (this is next step) **
+
+* using `this <https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html>`_ as a tutorial
+* starting with the above for example
+* as a next step, a more involved & opinionated setup is described `here <https://blog.ionelmc.ro/2014/05/25/python-packaging/>`_
+    * that contains interesting points but it's way too advanced for my needs right now
+
+installation & usage
+-------------------------
+* cd to pysetuptools root
+* pip install .
+* then similar to dev mode (but live changes won't be effective until there's a rebuild)
+
+in devlopment mode
+~~~~~~~~~~~~~~~~~~~~~
+* cd to pysetuptools root project directory
+* `pip install -e ./`
+* `demo_script.py`
+* can also use `bash_run` (shows how to just have a callable instead)
+
+walkthrough
+----------------
+* putting a number of things I won't use right now - but just to have a decent base structure to work with
+* we've chosen to go with the /package/test structure. other do things differently. the advanced example liked above prefers a flat `/src, /test, setup.py` kind of layout.
+
+technologies
+-----------------
+* using setuptools (extension of distutils)

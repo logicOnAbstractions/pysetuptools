@@ -1,0 +1,2 @@
+#!/bin/sh
+python pysetuptools/bin/demo_script.py
